@@ -18,23 +18,35 @@
       </Attribute>
     </Attributes>
     <References>
-      <Reference id="48506" internalID="0" name="BestBuy" path="/" type="target" />
+      <Reference id="48705" internalID="0" name="BestBuy" path="/" type="target" />
     </References>
   </Object>
-  <Object type="clipelement" schemaVersion="9096" name="Message1" path="/Clip for BestBuy" parentType="messageclip" uid="e29699f6-aa0a-f6a7-d489-0cb947f779a2">
+  <Object type="clipelement" schemaVersion="9096" name="Message1" path="/Clip for BestBuy" parentType="messageclip" uid="1f5fcea6-9141-4ed0-9d3f-93aeeb4f2407">
     <Body>
       <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
         <Message xmlns="http://www.soasta.com/services/repository">
+          
           <Content xmlns="http://www.soasta.com/services/repository">
+            
             <HTTPCommon xmlns="http://www.soasta.com/services/repository">
+              
               <Headers xmlns="http://www.soasta.com/services/repository">user-agent:firefox</Headers>
+            
             </HTTPCommon>
+            
             <REST verb="GET" xmlns="http://www.soasta.com/services/repository">
+              
               <Location xmlns="http://www.soasta.com/services/repository" />
+              
               <Params xmlns="http://www.soasta.com/services/repository" />
+            
             </REST>
+          
           </Content>
+        
         </Message>
+      
       </ClipElement>
     </Body>
     <BinaryData />
@@ -72,12 +84,16 @@
       </Attribute>
     </Attributes>
   </Object>
-  <Object type="clipelement" schemaVersion="9096" name="Delay1" path="/Clip for BestBuy" parentType="messageclip" uid="a368c826-9148-5400-3ff8-63aced816ed9">
+  <Object type="clipelement" schemaVersion="9096" name="Delay1" path="/Clip for BestBuy" parentType="messageclip" uid="d5426623-0997-4732-9e61-6a5a2706355d">
     <Body>
       <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
         <Delay xmlns="http://www.soasta.com/services/repository">
+          
           <Options delayLength="2000" xmlns="http://www.soasta.com/services/repository" />
+        
         </Delay>
+      
       </ClipElement>
     </Body>
     <BinaryData />
@@ -103,6 +119,57 @@
       </Attribute>
       <Attribute name="binding">
         <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+  </Object>
+  <Object type="clipelement" schemaVersion="9096" name="Message2" path="/Clip for BestBuy" parentType="messageclip" uid="30ef625f-4c48-9200-d0fc-dc721e7ab112">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <Message xmlns="http://www.soasta.com/services/repository">
+          <Content xmlns="http://www.soasta.com/services/repository">
+            <HTTPCommon xmlns="http://www.soasta.com/services/repository">
+              <Headers xmlns="http://www.soasta.com/services/repository">user-agent:firefox</Headers>
+            </HTTPCommon>
+            <REST verb="GET" xmlns="http://www.soasta.com/services/repository">
+              <Location xmlns="http://www.soasta.com/services/repository" />
+              <Params xmlns="http://www.soasta.com/services/repository" />
+            </REST>
+          </Content>
+        </Message>
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>message</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>get</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>2</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value>RestGetBinding</Value>
       </Attribute>
       <Attribute name="scope">
         <Value>private</Value>
