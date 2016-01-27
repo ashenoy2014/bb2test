@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
-  <Object type="messageclip" schemaVersion="9097" VCSUid="e000eb5ece586395db75cb9065e71b88" name="Clip for Google" path="/">
+  <Object type="messageclip" schemaVersion="9097" VCSUid="e000eb5ece586395db75cb9065e71b88" name="Clip for Google" path="/Temp1">
     <Body>
       <MessageClip xmlns="http://www.soasta.com/services/repository">
         
@@ -24,10 +24,10 @@
       </Attribute>
     </Attributes>
     <References>
-      <Reference id="48909" internalID="0" name="Google" path="/" type="target" />
+      <Reference id="48909" internalID="0" name="Google" path="/Temp1" type="target" />
     </References>
   </Object>
-  <Object type="clipelement" schemaVersion="9097" name="Message1" path="/Clip for Google" parentType="messageclip" uid="63935250-6e8f-4da8-8855-1320e46f670b">
+  <Object type="clipelement" schemaVersion="9097" name="Message1" path="/Temp1/Clip for Google" parentType="messageclip" uid="63935250-6e8f-4da8-8855-1320e46f670b">
     <Body>
       <ClipElement xmlns="http://www.soasta.com/services/repository">
         
